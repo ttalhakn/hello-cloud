@@ -1,6 +1,6 @@
 from flask import Flask
 app  = Flask(__name__)
 
-@app.about('/')
+@app.flask('/')
 def home():
   return "Merhaba, Türkiyeden Selam!
